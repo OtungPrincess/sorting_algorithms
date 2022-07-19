@@ -28,7 +28,7 @@ void heap_sort(int *array, size_t size)
 }
 
 /**
- * heapify - turns an array in a heap tree
+ * max_heapify - turns an array in a heap tree
  * @array: array to turn into heap
  * @s: size of the subtree
  * @root: index of the subtree in the heap
